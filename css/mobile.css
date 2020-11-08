@@ -11,12 +11,12 @@
   .main_section{
     padding: 5%;
   }
-  .products{
+  .Cards{
     display: block;
     height: auto;
     padding: 5%;
   }
-  .product{
+  .card{
     margin-top: auto;
   }
   .beneficios{

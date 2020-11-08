@@ -2,47 +2,55 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="description" content="Este es un sitio de producto genial">
+    <meta name="description" content="Personal blog, coder expert">
     <!-- Aqui podemos poner algún framework -->
 
     <!-- Aqui podemos poner algún framework -->
     <link rel="stylesheet" href="css/normalize.css">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" 
+                           integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" 
+                           crossorigin="anonymous"
+                           >
+
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="stylesheet" href="css/mobile.css">
     <link rel="stylesheet" href="css/animations.css">
     <link rel="icon" href="images/favicon.png">
-    <title>👨‍💻 Yeison García Santos. - </title>
+    <title>👨‍💻 Yeison García Santos.</title>
 
   </head> <!-- Cierra head -->
   <body>
+    <!-- Inicia menu horizontal -->
     <nav class="fadeInDown">
-      <a href="#"><img src="images/logo.png"  alt=""></a>
+      <a href="#"><img src="images/coffecoder.png"  alt=""></a>
       <ul>
         <li>
           <a href="#">Retos</a>
         </li>
         <li><a> |</a></li>
         <li>
-            <a href="">Filosofía</a>
+            <a href="#">Filosofía</a>
         </li>
         <li><a> |</a></li>
         <li>
-          <a href="producto.html">Contacto</a>
+          <a href="#">Contacto</a>
         </li>
       </ul>
     </nav>
+    <!-- Fin menu horizontal -->
     <h1 class="main_section fadeIn">
       ¡Aquí están las notas de un aprendiz! 
     </h1>
-    <!-- Inicio productos -->
+    <!-- Inicio Acceso rapido Menu -->
     <div class="Cards">
-      <div class="product fadeInUp">
+      <div class="card fadeInUp">
         <div class="content">
-          <div class="image-product">
+          <div class="image-card">
             <img src="images/box1.JPG" alt="">
           </div>
           <h3>Filosofía</h3>
-          <p>Miles de productos hay en el mercado, pero nada como una caja con gatitos</p>
+          <p>Esta sección puede tener otros nombres...Mi estilo de vida, principios, valores. !Aqui los tienes!</p>
           <a href="venta.html">
             <button class="main_btn">
               Quiero ver
@@ -50,13 +58,13 @@
           </a>
         </div>
       </div>
-      <div class="product fadeInUp">
+      <div class="card fadeInUp">
         <div class="content">
-          <div class="image-product">
+          <div class="image-card">
             <img src="images/box2.JPG" alt="">
           </div>
           <h3>Retos</h3>
-          <p>Miles de productos hay en el mercado, pero nada como una caja con gatitos</p>
+          <p>¿A quien no le gusta resolver algoritmos? Aquí puedes ver algunos desarrollados con mis lenguajes favoritos.</p>
           <a href="venta.html">
             <button class="main_btn">
               Quiero ver
@@ -66,75 +74,77 @@
         </div>
       </div>
     </div>
-    <!-- Fin productos -->
-    <!-- Inicia beneficios -->
+    <!-- Fin Acceso rapido Menu -->
+
+    <!-- Inicia lenguajes -->
     <div class="beneficios">
       <div class="beneficio">
         <div class="content_beneficio">
-          <img src="images/b1.png" alt="">
-          <h3>Los mas suavecitos</h3>
+          <img src="images/CSharp.png" alt="">
+          <h3>C#</h3>
           <p class="text_beneficio">
-            Miles de productos hay en el mercado, pero nada como una caja con gatitos
+            Si quieres aprender un lenguaje potente, fácil de usar y flexible, C# es una gran opción.<br> Y lo mejor !Es multiplataforma!
           </p>
         </div>
       </div>
       <div class="beneficio">
         <div class="content_beneficio">
-          <img src="images/b2.png" alt="">
-          <h3>Lo más increíble</h3>
+          <img src="images/java.png" alt="">
+          <h3>Java</h3>
           <p class="text_beneficio">
-            Miles de productos hay en el mercado, pero nada como una caja con gatitos
+            Es un lenguaje de alto nivel que permite, ampliamente usado para proyectos de todo tipo, como lo es blockchain, consolas para juegos, teléfonos móviles, IoT etc.
           </p>
         </div>
       </div>
       <div class="beneficio">
         <div class="content_beneficio">
-          <img src="images/b3.png" alt="">
-          <h3>Lo mas confiable</h3>
+          <img src="images/python.png" alt="">
+          <h3>Python</h3>
           <p class="text_beneficio">
-            Miles de productos hay en el mercado, pero nada como una caja con gatitos
+            Si quieres aprender a programar deberías empezar con Python, es una lenguaje limpio, multi-usos y fácil de aprender.<br>
+            ¿Quieres aprender Machine Learning?,¿Quieres aprender BlockChain?,¿Quieres aprender Seguridad informáti ca? !Aprender Python!. 
           </p>
         </div>
       </div>
     </div>
-    <!-- Fin beneficios -->
+    <!-- Fin lenguajes -->
     <hr>
     <!-- Inicia menciones -->
     <h2 class="mention_title">Mentores</h2>
-    <div class="mentions">
-      <div class="mention">
+    <div class="mentions col-md-12">
+      <div class="mention col-md-3">
         <div class="content_mention">
-          <img src="images/p1.png" alt="">
+          <img src="images/Elon_Musk.jpg" alt="">
           <div class="text">
             <h3>Elon Musk</h3>
-            <p>Miles de productos hay en el mercado, pero nada como una caja con gatitos</p>
+            <p>¡No necesita presentación!, ha revolucionado la industra aeroespacial e impulsado las energías limpias con sus empresas Solar City, Tesla Motors.</p>
           </div>
         </div>
       </div>
-      <div class="mention">
+      <div class="mention col-md-3">
         <div class="content_mention">
-          <img src="images/p2.png" alt="">
+          <img src="images/Satoshi_nakamoto.jpg" alt="">
           <div class="text">
             <h3>Satoshi Nakamoto</h3>
-            <p>Persona(s) que crearon el protololo BlockChain y  Bitcoin</p>
+            <p>Creador del protololo BlockChain y  Bitcoin, nadie sabe a ciencia cierta quien es incluso no se sabe si es un grupo de personas.</p>
           </div>
         </div>
       </div>
-      <div class="mention">
+      <div class="mention col-md-3">
         <div class="content_mention">
-          <img src="images/p3.png" alt="">
+          <img src="images/kevin_creekman.jpg" alt="">
           <div class="text">
             <h3>kevin creekman</h3>
-            <p>Miles de productos hay en el mercado, pero nada como una caja con gatitos</p>
+            <p>En su juventud sufrió de obesidad, cuando tenía 18 años ya habia alcanzado 150 Kilos, motivado como nunca antes ha logrado cambios importantes en su fisico.</p>
           </div>
         </div>
       </div>
-      <div class="mention">
+      <div class="mention col-md-3">
         <div class="content_mention">
-          <img src="images/p4.png" alt="">
+          <img src="images/Richard_Feynman.jpg" alt="">
           <div class="text">
-            <h3>Jiddu Krishnamurti</h3>
-            <p>Escritor filosofo espiritual, conocido por sus temas que incluían la revolución de la psicológica y conocimiento de uno mismo.</p>
+            <h3>Richard Feynman</h3>
+            <p>Era un mago de la física, amante de los bongos y las mujeres, además de ser uno de los creadores de la bomba atomica.</p>
           </div>
         </div>
       </div>
@@ -143,11 +153,11 @@
     <!-- Inicio de footer -->
     <footer>
       <div class="option">Terminos y condiciones</div>
-      <div class="option contact"><a href="mailto:yeisongarciasantos@yahoo.com">contacto@brand.com</a></div>
+      <div class="option contact"><a href="mailto:yeison.santos@outlook.com">Contacto</a></div>
     </footer>
     <!-- Fin de Footer -->
 
     <!-- Script -->
-    <script src="scripts/script.js"></script>
+
   </body> <!-- Cierra body -->
 </html> <!-- Cierra html -->

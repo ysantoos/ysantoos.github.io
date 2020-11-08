@@ -36,9 +36,9 @@ p, label{
 }
 
 .fadeInDown img{
-  width: 4%;
+  width: 10%;
   padding-right: .8em;
-}
+} 
 
 
 nav{
@@ -77,7 +77,7 @@ hr{
 
 .main_section{
   text-align: center;
-  padding: 15%;
+  padding: 5%;
 }
 
 /* -------------------------------------------  PRODUCTOS */
@@ -93,17 +93,16 @@ hr{
 
 }
 
-.product{
-  padding: 20px;
-  margin-top: -226px;
+.card{
+  margin-top: -160px;
 }
 
-.image-product{
+.image-card{
   text-align: center;
 }
 
 .content{
-  padding: 20px;
+  padding: 10px;
   background: var(--white-color);
   border-radius: 3px;
   box-shadow: 0px 0 2px 1px #e6e5e9;
@@ -111,13 +110,14 @@ hr{
 
 
 .content img{
-  width: 70%;
+  width: 177.52px;
+  height: 164.72;
   padding-right: .8em;  
 }
 
 .main_btn{
   padding: var(--space);
-  background-color: var(--green-color);
+  background-color: var(--black-color);
   width: 100%;
   border: 0px;
   border-radius: 2px;
@@ -141,6 +141,10 @@ hr{
 
 .beneficio img{
   max-height: 100px
+}
+
+.beneficio img:hover{
+  animation: pulse 1s;
 }
 
 .text_beneficio{
