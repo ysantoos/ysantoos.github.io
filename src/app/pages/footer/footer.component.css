@@ -5,7 +5,24 @@
 
 #navigation-footer {
     color: black;
+    display: flex;
+    justify-content: center;
+
     a {
         color: black;
     }
+}
+
+@media (max-width:374px) {
+    #navigation-footer {
+        color: black;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    
+        a {
+            color: black;
+        }
+    }   
 }

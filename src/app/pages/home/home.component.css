@@ -1,6 +1,12 @@
-#home{
+#home {
     background-color: #1c1d1e;
     height: 90vh;
     width: 100%;
     color: aliceblue;
+}
+
+@media (max-width:374px ) {
+h1 {
+    font-size: 25px;
+}
 }
