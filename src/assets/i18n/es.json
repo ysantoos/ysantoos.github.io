@@ -1,0 +1,30 @@
+{
+    "HOME": {
+        "PROFESSION": "Desarrollador de software",
+        "DESCRIPTION": "Desarrollador de software experto en .NET, Angular y React, con experiencia en bases de datos relacionales. Soluciones eficientes y escalables.",
+        "BUTTON": "Empezar"
+    },
+    "NAVBAR": {
+        "HOME": "Inicio",
+        "ABOUT": "Sobre mí",
+        "SKILLS": "Habilidades",
+        "PROJECTS": "Proyectos",
+        "CERTIFICATIONS": "Certificaciones"
+    },
+    "ABOUT": {
+        "TITLE": "Sobre Yeison",
+        "DESCRIPTION": "Soy un desarrollador de software apasionado con 5 años de experiencia, especializado en crear soluciones innovadoras y eficientes. Mi trayectoria profesional incluye proyectos de integración de software ERP, desarrollo de aplicaciones para la gestión de comercio internacional y creación de software a medida. A lo largo de mi carrera, he destacado por mis habilidades para resolver problemas, mi capacidad para trabajar en equipo y mi comunicación asertiva."
+    },
+    "SKILLS": {
+        "TITLE": "Habilidades",
+        "LANGUAGES": "Lenguajes de programación",
+        "DB": "Bases de datos",
+        "FRAMEWORKS": "Frameworks y librerias",
+        "CLOUD": "Cloud",
+        "OTHERS": "Otros"
+
+    },
+    "CERTIFICATIONS": {
+        "TITLE": "Cursos y Certificaciones"
+    }
+}

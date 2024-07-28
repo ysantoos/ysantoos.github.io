@@ -1,0 +1,16 @@
+#certifications {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+a:link {
+    text-decoration: none;
+    color: #ffffff;
+}
+a:hover {
+    background-color: #000000;
+    text-decoration: none;
+}
