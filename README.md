@@ -1,27 +1,51 @@
-# YsantoosGithubIo
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.0.
+# Personal web site with Angular 17 and Github Pages
 
-## Development server
+This is an example of how to deploy your personal web application with Angular 17 and Github Pages.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## Installation
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+clone the project and run the following command to install the dependencies
 
-## Build
+```bash
+  npm install
+```
+Build your Angular project using the following command:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+```bash
+  ng build --configuration production
+```
+## Deployment
 
-## Running unit tests
+To deploy any project in Github page with Angular 17, it is necessary to create a repository with this structure:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+<username>.github.io
 
-## Running end-to-end tests
+Now, in your Angular project’s angular.json file, set the outputPath to "dist":
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+```json
+"projects": {
+  "your-project-name": {
+    "architect": {
+      "build": {
+        "options": {
+          "outputPath": "dist"
+        }
+      }
+    }
+  }
+}
+```
 
-## Further help
+When you are ready to deploy your application, run the following command:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+```bash
+  ng deploy --repo=https://github.com/<username>/<username>.github.io.git --name="<username>"
+```
+
+In my case is:
+
+```bash
+  ng deploy --repo=https://github.com/<username>/<username>.github.io.git --name="<username>"
+```
