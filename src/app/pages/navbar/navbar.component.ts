@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { TranslateModule } from '@ngx-translate/core';
+import { ScrollService } from '../../shared/services/scroll/scroll.service';
 
 @Component({
   selector: 'app-navbar',
@@ -10,19 +11,18 @@ import { TranslateModule } from '@ngx-translate/core';
 })
 export class NavbarComponent {
 
-  scrollToSection(section: string){
-    const element = document.getElementById(section);
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
-    }
+  /**
+   *
+   */
+  constructor(private _scrollService: ScrollService) {
   }
 
   onKeydown(event: KeyboardEvent, section: string) {
-    const element = document.getElementById(section);
-    if ((event.key === 'Enter' || event.key === ' ') && element) {
-      event.preventDefault();
-      element.scrollIntoView({ behavior: 'smooth' });
-    }
+    this._scrollService.onKeydown(event, section);
+  }
+
+  onNavigateToSection(section: string) {
+    this._scrollService.navigateToSection(section);
   }
 
 }

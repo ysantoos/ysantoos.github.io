@@ -17,21 +17,32 @@
         <!-- MENU -->
         <div class="collapse navbar-collapse justify-content-end" id="navbarText">
             <ul class="navbar-nav ">
-                <li class="nav-item" (click)="scrollToSection('home')" (keydown)="onKeydown($event, 'home')">
-                    <a class="nav-link" href="#">{{ 'NAVBAR.HOME' | translate }}</a>
+                <li class="nav-item">
+                    <button class="nav-link" (click)="onNavigateToSection('home')"
+                        (keydown)="onKeydown($event, 'home')">
+                        {{ 'NAVBAR.HOME' | translate }}
+                    </button>                    
                 </li>
-
-                <li class="nav-item" (click)="scrollToSection('about')" (keydown)="onKeydown($event, 'about')">
-                    <a class="nav-link" href="#">{{ 'NAVBAR.ABOUT' | translate }}</a>
+                <li class="nav-item">
+                    <button class="nav-link" (click)="onNavigateToSection('about')"
+                        (keydown)="onKeydown($event, 'about')">
+                        {{ 'NAVBAR.ABOUT' | translate }}
+                    </button>
                 </li>
-                <li class="nav-item" (click)="scrollToSection('skills')" (keydown)="onKeydown($event, 'skills')">
-                    <a class="nav-link" aria-current="page" href="#">{{ 'NAVBAR.SKILLS' | translate }}</a>
+                <li class="nav-item">
+                    <button class="nav-link" (click)="onNavigateToSection('skills')"
+                        (keydown)="onKeydown($event, 'skills')">
+                        {{ 'NAVBAR.SKILLS' | translate }}
+                    </button>
                 </li>
                 <!-- <li class="nav-item">
                     <a class="nav-link" aria-current="page" href="#">{{ 'NAVBAR.PROJECTS' | translate }}</a>
                 </li> -->
-                <li class="nav-item"  (click)="scrollToSection('certifications')" (keydown)="onKeydown($event, 'certifications')">
-                    <a class="nav-link" aria-current="page" href="#">{{ 'NAVBAR.CERTIFICATIONS' | translate }}</a>
+                <li class="nav-item">
+                    <button class="nav-link" (click)="onNavigateToSection('certifications')"
+                        (keydown)="onKeydown($event, 'certifications')">
+                        {{ 'NAVBAR.CERTIFICATIONS' | translate }}
+                    </button>
                 </li>
             </ul>
         </div>
