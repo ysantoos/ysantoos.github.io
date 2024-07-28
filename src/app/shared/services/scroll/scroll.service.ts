@@ -25,8 +25,8 @@ export class ScrollService {
   }
 
   public navigateToSection(section: string) {
-    this.router.navigate(['/'+section]).then(() => {
-      this.scrollToSection(section);
+    this.router.navigate([section]).then(() => {
+      this.scrollToSection(section.replace("/",""));
     });
   }
 }
