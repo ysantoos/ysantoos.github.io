@@ -47,5 +47,5 @@ When you are ready to deploy your application, run the following command:
 In my case is:
 
 ```bash
-  ng deploy --repo=https://github.com/<username>/<username>.github.io.git --name="<username>"
+  ng deploy --repo=https://github.com/ysantoos/ysantoos.github.io.git --name="ysantoos"
 ```
